@@ -1,0 +1,83 @@
+.shopping-cart-page{
+    .shopping-cart-list{
+        margin-top: 40px;
+        .cart-item{
+            display: flex;
+            flex-flow: row wrap;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: solid 1px rgb(216, 216, 216);
+            position: relative;
+            .item-img{
+                width: 200px;
+                img{
+                    width: 100%;
+                }
+            }
+            .item-info{
+                width: calc(100% - 200px);
+                padding-left: 20px;
+                h3{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+                .item-price{
+                    display: block;
+                    font-size: 18px;
+                    text-align: right;
+                    span{
+                        font-weight: 700;
+                        font-size: 26px;
+                    }
+                }
+            }
+
+            .item-delete{
+                transition: .2s ease background, .2s ease color;
+                position: absolute;
+                top: 0;
+                right: 0;
+                border: solid 1px black;
+                color: black;
+                border-radius: 10px;
+                padding: 10px 12px;
+                line-height: 0px;
+                &:hover{
+                    background: #e63946;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .subtotal {
+        text-align: right;
+        font-size: 30px;
+        span{
+            display: inline-block;
+            margin-left: 10px;
+            font-weight: 700;
+            font-size: 50px;
+        }
+    }
+
+    .buy-button{
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        background: #8E2DE2;
+        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+        background: linear-gradient(to right, #4A00E0, #8E2DE2);
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: auto;
+        font-weight: 700;
+        border: none;
+        font-size: 20px;
+    }
+}

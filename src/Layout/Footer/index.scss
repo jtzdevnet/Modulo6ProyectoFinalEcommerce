@@ -1,0 +1,14 @@
+footer{
+    margin-top: auto;
+    background: rgb(22, 22, 22);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-top: solid 5px var(--primary);
+    span{
+        display: inline-block;
+        margin: 0 30px;
+    }
+}

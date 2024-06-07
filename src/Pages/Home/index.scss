@@ -1,0 +1,21 @@
+.home-page{
+    h1{
+        margin-bottom: 30px;
+    }
+
+    .home-shoping-cart{
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(45deg, var(--primary) 50%, var(--secondary) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}

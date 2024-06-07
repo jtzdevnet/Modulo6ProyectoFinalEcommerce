@@ -1,0 +1,9 @@
+.items-list{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    padding-left: 30px;
+    >h3{
+        width: 100%;
+    }
+}

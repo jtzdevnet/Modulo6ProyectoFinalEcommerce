@@ -1,0 +1,35 @@
+.page-wrapper{
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+.page-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 10px 46px -20px #8b8b8b;
+    margin-bottom: 30px;
+    @media(min-width: 768px){
+        width: 750px;
+    }
+    @media(min-width: 992px){
+        width: 970px;
+    }
+    @media(min-width: 1200px){
+        width: 1170px;
+    }
+    @media(min-width: 1530px){
+        width: 1500px;
+    }
+}
+
+.page-content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
