@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = 'http://localhost:3000'
+//const BASE_URL = 'http://localhost:3000'
+const BASE_URL = 'https://json-server-jwt.onrender.com'
 
 const getAllItemsService = () => axios.get(`${BASE_URL}/items`)
 const getOneItemService = (id) => axios.get(`${BASE_URL}/items/${id}`)
