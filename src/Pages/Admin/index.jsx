@@ -33,6 +33,9 @@ const Admin = () => {
         navigate("/");
       }
     }
+    else{
+      navigate("/");
+    }
   }, [userPayload])
 
   return (
